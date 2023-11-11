@@ -17,6 +17,8 @@ public class AplikasiPertambahanDuaAngka extends javax.swing.JFrame {
      */
     public AplikasiPertambahanDuaAngka() {
         initComponents();
+        
+        
     }
 
     /**
