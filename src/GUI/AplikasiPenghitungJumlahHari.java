@@ -113,9 +113,9 @@ public class AplikasiPenghitungJumlahHari extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(56, Short.MAX_VALUE)
-                .addComponent(jumlahharilabel, javax.swing.GroupLayout.PREFERRED_SIZE, 414, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(51, 51, 51))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jumlahharilabel, javax.swing.GroupLayout.PREFERRED_SIZE, 409, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(56, 56, 56))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -241,34 +241,37 @@ public class AplikasiPenghitungJumlahHari extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
      jumlahharilabel.setText("");
         tahun1.setText("");
-      bulan.setSelectedItem("Januari");
+      bulan.setSelectedItem("Februari");
       
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-      if(tahun1.getText().isEmpty()){
-          JOptionPane.showMessageDialog(null,"Error: Isian Tahun Kosong!",
-                  " Error : Isian Tahun Kosong!", JOptionPane.WARNING_MESSAGE);
-      } else {
-          int tahun =Integer.parseInt(tahun1.getText());
-          int jumlahHari;
-         if (bulan.getSelectedItem().equals(Februari)){
-             if (((tahun % 4 == 0) &&!(tahun % 100 == 0)) || 
-                  (tahun % 400 == 0))
-                 jumlahHari  = 29;
-             else jumlahHari = 28;
-         }else if(bulan.getSelectedItem().equals("April")||
-                 bulan.getSelectedItem().equals("Juni") ||
-                 bulan.getSelectedItem().equals("September") ||
-                 bulan.getSelectedItem().equals("November")){
-             jumlahHari=30;
-      } else {
-              jumlahHari =31;
-              }
-      jumlahharilabel.setText(" Jumlah Hari Pada Bulan "+ bulan.getSelectedItem() + 
-              " Tahun "+ tahun + " adalah " + jumlahHari);
-      
-      }
+    if (tahun1.getText().isEmpty()) {
+    JOptionPane.showMessageDialog(null, "Error: Isian Tahun Kosong!",
+            "Error: Isian Tahun Kosong!", JOptionPane.WARNING_MESSAGE);
+} else {
+    int tahun = Integer.parseInt(tahun1.getText());
+    int jumlahHari;
+
+    if (bulan.getSelectedItem().equals("Februari")) {
+        if (((tahun % 4 == 0) && !(tahun % 100 == 0)) || (tahun % 400 == 0))
+            jumlahHari = 29;
+        else
+            jumlahHari = 28;
+    } else if (bulan.getSelectedItem().equals("April") ||
+            bulan.getSelectedItem().equals("Juni") ||
+            bulan.getSelectedItem().equals("September") ||
+            bulan.getSelectedItem().equals("November")) {
+        jumlahHari = 30;
+    } else {
+        jumlahHari = 31;
+    }
+
+    jumlahharilabel.setText("Jumlah Hari Pada Bulan " + bulan.getSelectedItem() +
+            " Tahun " + tahun + " adalah " + jumlahHari);
+}
+                                     
+                                            
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
