@@ -166,8 +166,7 @@ public class MenuUtamaAplikasiPenghitungJumlahHari extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jActionPerformed
-    new FormLogin_PenghitungJumlahHari().show();
-    this.dispose();
+   System.exit(0);
          // TODO add your handling code here:
     }//GEN-LAST:event_jActionPerformed
 

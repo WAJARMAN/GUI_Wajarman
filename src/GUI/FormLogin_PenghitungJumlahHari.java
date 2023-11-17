@@ -136,6 +136,7 @@ public class FormLogin_PenghitungJumlahHari extends javax.swing.JFrame {
             txtpassword.requestFocus();
         } else if (txtusername.getText().contains("admin")&& txtpassword.getText().contains("admin")) {
             new MenuUtamaAplikasiPenghitungJumlahHari().show();
+            javax.swing.JOptionPane.showMessageDialog(null, "Anda Berhasil Login");
             this.dispose();
         }
         else {

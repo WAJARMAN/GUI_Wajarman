@@ -178,9 +178,6 @@
                     </Property>
                     <Property name="text" type="java.lang.String" value="APLIKASI PENGHITUNG JUMLAH HARI"/>
                   </Properties>
-                  <AccessibilityProperties>
-                    <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="APLIKASI PENGHITUNG JUMLAH HARI"/>
-                  </AccessibilityProperties>
                 </Component>
                 <Component class="java.awt.Label" name="label2">
                   <Properties>

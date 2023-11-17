@@ -129,8 +129,8 @@ public class Form_Login_Buku_Alamat extends javax.swing.JFrame {
            JOptionPane.showMessageDialog(null,"Password Wajib Di isi!!");//perintah untuk mengisi data sebelum masuk 
                   txtpassword.requestFocus();
        } else if (txtusername.getText().contains("admin")&& txtpassword.getText().contains("admin")) {
-           new AplikasiPertambahanDuaAngka().show();
-           new CelciusToFahrenheitGUIa().show();
+           new BukuAlamat().show();
+           javax.swing.JOptionPane.showMessageDialog(null, "Anda Berhasil Login");
            this.dispose();       
         }
        else {
