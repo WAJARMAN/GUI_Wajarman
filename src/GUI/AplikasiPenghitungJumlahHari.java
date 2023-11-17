@@ -75,6 +75,7 @@ public class AplikasiPenghitungJumlahHari extends javax.swing.JFrame {
 
         bulan.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         bulan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember" }));
+        bulan.setSelectedIndex(-1);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

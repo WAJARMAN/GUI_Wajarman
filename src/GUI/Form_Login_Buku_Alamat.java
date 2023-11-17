@@ -28,120 +28,63 @@ public class Form_Login_Buku_Alamat extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel2 = new javax.swing.JPanel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        txtpassword = new javax.swing.JPasswordField();
-        jButton1 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        jColorChooser1 = new javax.swing.JColorChooser();
         txtusername = new java.awt.TextField();
+        jButton1 = new javax.swing.JButton();
+        txtpassword = new javax.swing.JPasswordField();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(javax.swing.UIManager.getDefaults().getColor("Actions.Green"));
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel2.setBackground(new java.awt.Color(204, 255, 204));
-
-        jLabel3.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        jLabel3.setText("LOGIN");
-
-        jLabel2.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel2.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel2.setText("Username");
-
-        jButton1.setText("LOGIN");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-
-        jLabel1.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel1.setText("Password");
-
+        txtusername.setFont(new java.awt.Font("Cambria", 1, 48)); // NOI18N
         txtusername.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtusernameActionPerformed(evt);
             }
         });
+        getContentPane().add(txtusername, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 240, 220, 70));
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(34, 34, 34)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 89, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 189, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(35, 35, 35)
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel2Layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                            .addComponent(txtusername, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(58, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(19, 19, 19)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(txtusername, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(59, 59, 59)
-                        .addComponent(txtpassword, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addComponent(jLabel2)
-                        .addGap(66, 66, 66)
-                        .addComponent(jLabel1)))
-                .addGap(37, 37, 37)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(28, Short.MAX_VALUE))
-        );
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("Sign in");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 460, 330, 50));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
+        txtpassword.setFont(new java.awt.Font("Cambria", 0, 48)); // NOI18N
+        getContentPane().add(txtpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 350, 220, 70));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\User\\OneDrive\\Documents\\semester 5\\PBO 2 Pak edya\\Pink Muda Pengingat Muslim Quote Islami Kiriman Instagram.png")); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       if (txtusername.getText().equals("")){ //biar tampilan text field pada form login
-           JOptionPane.showMessageDialog(null,"Username Wajib Di isi!!"); //perintah untuk mengisi data sebelum masuk 
-           txtusername.requestFocus();
-       } else if (txtpassword.getText().equals("")){ //biar tampilan text field pada form login
-           JOptionPane.showMessageDialog(null,"Password Wajib Di isi!!");//perintah untuk mengisi data sebelum masuk 
-                  txtpassword.requestFocus();
-       } else if (txtusername.getText().contains("admin")&& txtpassword.getText().contains("admin")) {
-           new BukuAlamat().show();
-           javax.swing.JOptionPane.showMessageDialog(null, "Anda Berhasil Login");
-           this.dispose();       
-        }
-       else {
-           JOptionPane.showMessageDialog(null,"Username atau Password tidak sesuai");
-       }
-       
-    }//GEN-LAST:event_jButton1ActionPerformed
-
     private void txtusernameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtusernameActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtusernameActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        if (txtusername.getText().equals("")){ //biar tampilan text field pada form login
+            JOptionPane.showMessageDialog(null,"Username Wajib Di isi!!"); //perintah untuk mengisi data sebelum masuk
+            txtusername.requestFocus();
+        } else if (txtpassword.getText().equals("")){ //biar tampilan text field pada form login
+            JOptionPane.showMessageDialog(null,"Password Wajib Di isi!!");//perintah untuk mengisi data sebelum masuk
+            txtpassword.requestFocus();
+        } else if (txtusername.getText().contains("admin")&& txtpassword.getText().contains("admin")) {
+            new BukuAlamat().show();
+            javax.swing.JOptionPane.showMessageDialog(null, "Anda Berhasil Login");
+            this.dispose();
+        }
+        else {
+            JOptionPane.showMessageDialog(null,"Username atau Password tidak sesuai");
+        }
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -180,11 +123,29 @@ public class Form_Login_Buku_Alamat extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JColorChooser jColorChooser1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JPanel jPanel2;
     private javax.swing.JPasswordField txtpassword;
     private java.awt.TextField txtusername;
+    private java.awt.TextField txtusername10;
+    private java.awt.TextField txtusername11;
+    private java.awt.TextField txtusername12;
+    private java.awt.TextField txtusername13;
+    private java.awt.TextField txtusername14;
+    private java.awt.TextField txtusername15;
+    private java.awt.TextField txtusername16;
+    private java.awt.TextField txtusername17;
+    private java.awt.TextField txtusername18;
+    private java.awt.TextField txtusername19;
+    private java.awt.TextField txtusername20;
+    private java.awt.TextField txtusername21;
+    private java.awt.TextField txtusername22;
+    private java.awt.TextField txtusername23;
+    private java.awt.TextField txtusername24;
+    private java.awt.TextField txtusername5;
+    private java.awt.TextField txtusername6;
+    private java.awt.TextField txtusername7;
+    private java.awt.TextField txtusername8;
+    private java.awt.TextField txtusername9;
     // End of variables declaration//GEN-END:variables
 }
