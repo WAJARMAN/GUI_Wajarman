@@ -1,10 +1,20 @@
-ID: a
-Nama Depan: a
-Nama Belakang: a
+ID: 102
+Nama Depan: wajarman
+Nama Belakang: Arman
+Jenis Kelamin: Lali-Laki
+Agama: Islam
+Alamat: Jl.Tembus Mantui Rt/Rw. 001/002
+Nomor Telepon: 0823 3744 8826
+Email: wajarman015@gmail.com
+Tanggal Lahir: 10-02-2002
+Catatan: Buku Alamat saya
+ID: 103
+Nama Depan: Aflah
+Nama Belakang: Nuryati
 Jenis Kelamin: Perempuan
-Agama: Buddha
-Alamat: a
-Nomor Telepon: a
-Email: a
-Tanggal Lahir: a
-Catatan: a
+Agama: Islam
+Alamat: Jl.Tembus Mantui Rt/Rw. 001/002
+Nomor Telepon: 0823 3744 2293
+Email: Aflah@gmail.com
+Tanggal Lahir: 15-10-1995
+Catatan: Buku Alamat Aflah
