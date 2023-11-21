@@ -4,6 +4,8 @@
  */
 package GUI;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import javax.swing.JOptionPane;
 
 /**
@@ -17,6 +19,18 @@ public class Form_Login_Buku_Alamat extends javax.swing.JFrame {
      */
     public Form_Login_Buku_Alamat() {
         initComponents();
+         Dimension screenSize = 
+         Toolkit.getDefaultToolkit().getScreenSize();
+            Dimension frameSize = this.getSize();
+            if (frameSize.height > screenSize.height) {
+                frameSize.height = screenSize.height;
+            }
+            if (frameSize.width > screenSize.width) {
+                frameSize.width = screenSize.width;
+            }
+            this.setLocation(
+                    (screenSize.width - frameSize.width) / 2, 
+                    (screenSize.height - frameSize.height) / 2); 
     }
 
     /**
@@ -70,20 +84,34 @@ public class Form_Login_Buku_Alamat extends javax.swing.JFrame {
     }//GEN-LAST:event_txtusernameActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        if (txtusername.getText().equals("")){ //biar tampilan text field pada form login
-            JOptionPane.showMessageDialog(null,"Username Wajib Di isi!!"); //perintah untuk mengisi data sebelum masuk
-            txtusername.requestFocus();
-        } else if (txtpassword.getText().equals("")){ //biar tampilan text field pada form login
-            JOptionPane.showMessageDialog(null,"Password Wajib Di isi!!");//perintah untuk mengisi data sebelum masuk
-            txtpassword.requestFocus();
-        } else if (txtusername.getText().contains("admin")&& txtpassword.getText().contains("admin")) {
-            new BukuAlamat().show();
-            javax.swing.JOptionPane.showMessageDialog(null, "Anda Berhasil Login");
-            this.dispose();
-        }
-        else {
-            JOptionPane.showMessageDialog(null,"Username atau Password tidak sesuai");
-        }
+                    // Memeriksa apakah teks pada JTextField "txtusername" kosong
+             if (txtusername.getText().equals("")) {
+                 // Menampilkan pesan peringatan jika username tidak diisi
+                 JOptionPane.showMessageDialog(null, "Username Wajib Di isi!!");
+                 // Fokuskan kursor ke JTextField "txtusername"
+                 txtusername.requestFocus();
+             } 
+             // Memeriksa apakah teks pada JTextField "txtpassword" kosong
+             else if (txtpassword.getText().equals("")) {
+                 // Menampilkan pesan peringatan jika password tidak diisi
+                 JOptionPane.showMessageDialog(null, "Password Wajib Di isi!!");
+                 // Fokuskan kursor ke JTextField "txtpassword"
+                 txtpassword.requestFocus();
+             } 
+             // Memeriksa apakah username mengandung "admin" dan password mengandung "admin"
+             else if (txtusername.getText().contains("admin") && txtpassword.getText().contains("admin")) {
+                 // Menampilkan pesan bahwa login berhasil
+                 new BukuAlamat().show();
+                 javax.swing.JOptionPane.showMessageDialog(null, "Anda Berhasil Login");
+                 // Menutup frame atau form login saat login berhasil
+                 this.dispose();
+             } 
+             // Jika username dan password tidak sesuai dengan kondisi sebelumnya
+             else {
+                 // Menampilkan pesan bahwa username atau password tidak sesuai
+                 JOptionPane.showMessageDialog(null, "Username atau Password tidak sesuai");
+             }
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

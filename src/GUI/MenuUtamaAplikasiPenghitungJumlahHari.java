@@ -4,6 +4,10 @@
  */
 package GUI;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
+import java.io.Closeable;
+
 /**
  *
  * @author User
@@ -15,6 +19,18 @@ public class MenuUtamaAplikasiPenghitungJumlahHari extends javax.swing.JFrame {
      */
     public MenuUtamaAplikasiPenghitungJumlahHari() {
         initComponents();
+         Dimension screenSize = 
+         Toolkit.getDefaultToolkit().getScreenSize();
+            Dimension frameSize = this.getSize();
+            if (frameSize.height > screenSize.height) {
+                frameSize.height = screenSize.height;
+            }
+            if (frameSize.width > screenSize.width) {
+                frameSize.width = screenSize.width;
+            }
+            this.setLocation(
+                    (screenSize.width - frameSize.width) / 2, 
+                    (screenSize.height - frameSize.height) / 2); 
     }
 
     /**
@@ -177,7 +193,7 @@ j.setVisible(true);// TODO add your handling code here:
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         new   AplikasiPenghitungJumlahHari().setVisible(true);
-
+    
         // TODO add your handling code here:
     }//GEN-LAST:event_jMenuItem1ActionPerformed
 

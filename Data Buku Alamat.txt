@@ -1,0 +1,10 @@
+ID: a
+Nama Depan: a
+Nama Belakang: a
+Jenis Kelamin: Perempuan
+Agama: Buddha
+Alamat: a
+Nomor Telepon: a
+Email: a
+Tanggal Lahir: a
+Catatan: a

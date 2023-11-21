@@ -1,0 +1,100 @@
+ID: q
+Nama Depan: q
+Nama Belakang: q
+Jenis Kelamin: Lali-Laki
+Agama: Buddha
+Alamat: q
+Nomor Telepon: q
+Email: q
+Tanggal Lahir: q
+Catatan: 12
+ID: q
+Nama Depan: q
+Nama Belakang: q
+Jenis Kelamin: Lali-Laki
+Agama: Buddha
+Alamat: q
+Nomor Telepon: q
+Email: q
+Tanggal Lahir: q
+Catatan: 12
+ID: 12
+Nama Depan: 12
+Nama Belakang: 12
+Jenis Kelamin: Perempuan
+Agama: Hindu
+Alamat: 12
+Nomor Telepon: 12
+Email: 12
+Tanggal Lahir: 121
+Catatan: 12
+ID: a
+Nama Depan: a
+Nama Belakang: a
+Jenis Kelamin: Perempuan
+Agama: Islam
+Alamat: a
+Nomor Telepon: a
+Email: a
+Tanggal Lahir: a
+Catatan: a
+ID: K02
+Nama Depan: Wajarman
+Nama Belakang: Arman
+Jenis Kelamin: Lali-Laki
+Agama: Islam
+Alamat: Jl.Tembus Mantuil
+Nomor Telepon: 082 3345 6742
+Email: wajarman015@gmail.com
+Tanggal Lahir: 10-06-2003
+Catatan: buku kontak saya
+ID: K03
+Nama Depan: Aflah
+Nama Belakang: Nuriyati
+Jenis Kelamin: Perempuan
+Agama: Islam
+Alamat: Jl.tembus mantuil
+Nomor Telepon: 0812 0987 4623
+Email: aflahnuriyati@gmail.com
+Tanggal Lahir: 29-1-1994
+Catatan: buku kontak
+ID: K03
+Nama Depan: Aflah
+Nama Belakang: Nuriyati
+Jenis Kelamin: Perempuan
+Agama: Islam
+Alamat: Jl.tembus mantuil
+Nomor Telepon: 0812 0987 4623
+Email: aflahnuriyati@gmail.com
+Tanggal Lahir: 29-04-1994
+Catatan: buku kontak
+ID: K02
+Nama Depan: wajarman
+Nama Belakang: Arman
+Jenis Kelamin: Lali-Laki
+Agama: Islam
+Alamat: Jl.tembus mantuil
+Nomor Telepon: 0823 3422 2952
+Email: wajarman015@gmail.com
+Tanggal Lahir: 10-02-2002
+Catatan: buku kontak saya
+ID: K03
+Nama Depan: AFLAH
+Nama Belakang: NURYATI
+Jenis Kelamin: Perempuan
+Agama: Islam
+Alamat: JL. TEMBUS MANTUIL
+Nomor Telepon: 0823 6723 4412
+Email: Aflah@gmail.com
+Tanggal Lahir: 20-07-1995
+Catatan: Buku kontak Aflah
+ID: K03
+Nama Depan: AFLAH
+Nama Belakang: NUR
+Jenis Kelamin: Perempuan
+Agama: Islam
+Alamat: JL. TEMBUS MANTUIL
+Nomor Telepon: 0823 6723 4412
+Email: Aflah@gmail.com
+Tanggal Lahir: 20-07-1995
+Catatan: buku kontak

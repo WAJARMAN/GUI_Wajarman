@@ -4,6 +4,8 @@
  */
 package GUI;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,6 +19,10 @@ import javax.swing.JOptionPane;
  */
 public class AplikasiPenghitungJumlahHari extends javax.swing.JFrame {
 
+    static Object getetxt() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     private Object Februari;
 
     /**
@@ -24,6 +30,17 @@ public class AplikasiPenghitungJumlahHari extends javax.swing.JFrame {
      */
     public AplikasiPenghitungJumlahHari() {
         initComponents();
+         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+            Dimension frameSize = this.getSize();
+            if (frameSize.height > screenSize.height) {
+                frameSize.height = screenSize.height;
+            }
+            if (frameSize.width > screenSize.width) {
+                frameSize.width = screenSize.width;
+            }
+            this.setLocation(
+                    (screenSize.width - frameSize.width) / 2, 
+                    (screenSize.height - frameSize.height) / 2);
     }
 
     /**
@@ -242,7 +259,7 @@ public class AplikasiPenghitungJumlahHari extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
      jumlahharilabel.setText("");
         tahun1.setText("");
-      bulan.setSelectedItem("Februari");
+      bulan.setSelectedItem("");
       
     }//GEN-LAST:event_jButton3ActionPerformed
 
