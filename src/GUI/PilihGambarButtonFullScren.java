@@ -52,8 +52,8 @@ public class PilihGambarButtonFullScren extends javax.swing.JFrame {
         jButton4 = new javax.swing.JButton();
         imagePanel = new javax.swing.JPanel();
         Glassfish = new javax.swing.JLabel();
-        PostgreSQl = new javax.swing.JLabel();
         JavaEE = new javax.swing.JLabel();
+        PostgreSQl = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocationByPlatform(true);
@@ -119,11 +119,11 @@ public class PilihGambarButtonFullScren extends javax.swing.JFrame {
         Glassfish.setText("jLabel1");
         imagePanel.add(Glassfish, "0");
 
-        PostgreSQl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/1.png"))); // NOI18N
-        imagePanel.add(PostgreSQl, "2");
-
         JavaEE.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/2.png"))); // NOI18N
         imagePanel.add(JavaEE, "1");
+
+        PostgreSQl.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/1.png"))); // NOI18N
+        imagePanel.add(PostgreSQl, "2");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
