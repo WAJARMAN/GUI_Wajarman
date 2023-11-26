@@ -18,3 +18,13 @@ Nomor Telepon: 0823 3744 2293
 Email: Aflah@gmail.com
 Tanggal Lahir: 15-10-1995
 Catatan: Buku Alamat Aflah
+ID: aa
+Nama Depan: aaa
+Nama Belakang: a
+Jenis Kelamin: Lali-Laki
+Agama: Islam
+Alamat: andlajlojfonf
+Nomor Telepon: 9i3092u4
+Email: aa
+Tanggal Lahir: a
+Catatan: aaa
