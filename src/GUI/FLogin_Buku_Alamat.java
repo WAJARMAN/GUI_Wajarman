@@ -101,7 +101,7 @@ public class FLogin_Buku_Alamat extends javax.swing.JFrame {
              // Memeriksa apakah username mengandung "admin" dan password mengandung "admin"
              else if (txtusername.getText().contains("admin") && txtpassword.getText().contains("admin")) {
                  // Menampilkan pesan bahwa login berhasil
-                 new BukuAlamat().show();
+                 new Aplikasi_Buku_Alamat().show();
                  javax.swing.JOptionPane.showMessageDialog(null, "Anda Berhasil Login");
                  // Menutup frame atau form login saat login berhasil
                  this.dispose();
